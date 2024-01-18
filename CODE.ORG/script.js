@@ -1,0 +1,127 @@
+function one() {
+ document.getElementById("home").style.visibility = "visible";
+ document.getElementById("deals").style.visibility = "hidden";
+ document.getElementById("works").style.visibility = "hidden";
+ document.getElementById("contacts").style.visibility = "hidden";
+ document.getElementById("settings").style.visibility = "hidden";
+ document.getElementById("about").style.visibility = "hidden";
+ document.getElementById("one").style.backgroundColor = "yellow";
+ document.getElementById("one").style.color = "black";
+ document.getElementById("two").style.backgroundColor = "black";
+ document.getElementById("two").style.color = "yellow";
+ document.getElementById("three").style.backgroundColor = "black";
+ document.getElementById("three").style.color = "yellow";
+ document.getElementById("four").style.backgroundColor = "black";
+ document.getElementById("four").style.color = "yellow";
+ document.getElementById("five").style.backgroundColor = "black";
+ document.getElementById("five").style.color = "yellow";
+ document.getElementById("six").style.backgroundColor = "black";
+ document.getElementById("six").style.color = "yellow";
+ document.getElementById("sir").style.overflowY = "hidden";
+}
+// IDEA:   border-color: black; border-style: solid;  color: black; background-color: yellow; --//
+function two() {
+  document.getElementById("home").style.visibility = "hidden";
+  document.getElementById("deals").style.visibility = "visible";
+  document.getElementById("works").style.visibility = "hidden";
+  document.getElementById("contacts").style.visibility = "hidden";
+  document.getElementById("settings").style.visibility = "hidden";
+  document.getElementById("about").style.visibility = "hidden";
+  document.getElementById("one").style.backgroundColor = "black";
+  document.getElementById("one").style.color = "yellow";
+  document.getElementById("two").style.backgroundColor = "yellow";
+  document.getElementById("two").style.color = "black";
+  document.getElementById("three").style.backgroundColor = "black";
+  document.getElementById("three").style.color = "yellow";
+  document.getElementById("four").style.backgroundColor = "black";
+  document.getElementById("four").style.color = "yellow";
+  document.getElementById("five").style.backgroundColor = "black";
+  document.getElementById("five").style.color = "yellow";
+  document.getElementById("six").style.backgroundColor = "black";
+  document.getElementById("six").style.color = "yellow";
+  document.getElementById("sir").style.overflowY = "visible";
+}
+function three() {
+  document.getElementById("home").style.visibility = "hidden";
+  document.getElementById("deals").style.visibility = "hidden";
+  document.getElementById("works").style.visibility = "visible";
+  document.getElementById("contacts").style.visibility = "hidden";
+  document.getElementById("settings").style.visibility = "hidden";
+  document.getElementById("about").style.visibility = "hidden";
+  document.getElementById("one").style.backgroundColor = "black";
+  document.getElementById("one").style.color = "yellow";
+  document.getElementById("two").style.backgroundColor = "black";
+  document.getElementById("two").style.color = "yellow";
+  document.getElementById("three").style.backgroundColor = "yellow";
+  document.getElementById("three").style.color = "black";
+  document.getElementById("four").style.backgroundColor = "black";
+  document.getElementById("four").style.color = "yellow";
+  document.getElementById("five").style.backgroundColor = "black";
+  document.getElementById("five").style.color = "yellow";
+  document.getElementById("six").style.backgroundColor = "black";
+  document.getElementById("six").style.color = "yellow";
+  document.getElementById("sir").style.overflowY = "hidden";
+}
+function four() {
+  document.getElementById("home").style.visibility = "hidden";
+  document.getElementById("deals").style.visibility = "hidden";
+  document.getElementById("works").style.visibility = "hidden";
+  document.getElementById("contacts").style.visibility = "visible";
+  document.getElementById("settings").style.visibility = "hidden";
+  document.getElementById("about").style.visibility = "hidden";
+  document.getElementById("one").style.backgroundColor = "black";
+  document.getElementById("one").style.color = "yellow";
+  document.getElementById("two").style.backgroundColor = "black";
+  document.getElementById("two").style.color = "yellow";
+  document.getElementById("three").style.backgroundColor = "black";
+  document.getElementById("three").style.color = "yellow";
+  document.getElementById("four").style.backgroundColor = "yellow";
+  document.getElementById("four").style.color = "black";
+  document.getElementById("five").style.backgroundColor = "black";
+  document.getElementById("five").style.color = "yellow";
+  document.getElementById("six").style.backgroundColor = "black";
+  document.getElementById("six").style.color = "yellow";
+  document.getElementById("sir").style.overflowY = "hidden";
+}
+function five() {
+  document.getElementById("home").style.visibility = "hidden";
+  document.getElementById("deals").style.visibility = "hidden";
+  document.getElementById("works").style.visibility = "hidden";
+  document.getElementById("contacts").style.visibility = "hidden";
+  document.getElementById("settings").style.visibility = "visible";
+  document.getElementById("about").style.visibility = "hidden";
+  document.getElementById("one").style.backgroundColor = "black";
+  document.getElementById("one").style.color = "yellow";
+  document.getElementById("two").style.backgroundColor = "black";
+  document.getElementById("two").style.color = "yellow";
+  document.getElementById("three").style.backgroundColor = "black";
+  document.getElementById("three").style.color = "yellow";
+  document.getElementById("four").style.backgroundColor = "black";
+  document.getElementById("four").style.color = "yellow";
+  document.getElementById("five").style.backgroundColor = "yellow";
+  document.getElementById("five").style.color = "black";
+  document.getElementById("six").style.backgroundColor = "black";
+  document.getElementById("six").style.color = "yellow";
+  document.getElementById("sir").style.overflowY = "hidden";
+}
+function six() {
+  document.getElementById("home").style.visibility = "hidden";
+  document.getElementById("deals").style.visibility = "hidden";
+  document.getElementById("works").style.visibility = "hidden";
+  document.getElementById("contacts").style.visibility = "hidden";
+  document.getElementById("settings").style.visibility = "hidden";
+  document.getElementById("about").style.visibility = "visible";
+  document.getElementById("one").style.backgroundColor = "black";
+  document.getElementById("one").style.color = "yellow";
+  document.getElementById("two").style.backgroundColor = "black";
+  document.getElementById("two").style.color = "yellow";
+  document.getElementById("three").style.backgroundColor = "black";
+  document.getElementById("three").style.color = "yellow";
+  document.getElementById("four").style.backgroundColor = "black";
+  document.getElementById("four").style.color = "yellow";
+  document.getElementById("five").style.backgroundColor = "black";
+  document.getElementById("five").style.color = "yellow";
+  document.getElementById("six").style.backgroundColor = "yellow";
+  document.getElementById("six").style.color = "black";
+  document.getElementById("sir").style.overflowY = "hidden";
+}

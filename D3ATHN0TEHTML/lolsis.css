@@ -1,0 +1,29 @@
+input[type=text] {
+  width: 10%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  padding: 8px;
+  border-color: blue;
+  color: red;
+}
+body {
+  height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: red;
+}
+.cum{
+  font-family: cursive;
+}
+.lol {
+  font-style: oblique;
+  color: black;
+}
+.yanos {
+  width: 5%;
+  height: 15%;
+}

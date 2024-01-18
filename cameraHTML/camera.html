@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>camera</title>
+  </head>
+  <body>
+
+    <div class="div"></div>
+
+    <video id="vid" autoplay></video>
+
+    <div id="snap" class="div1"></div>
+
+    <canvas id="canvas" width="640" height="480"></canvas>
+
+    <script type="text/javascript">
+
+      const video = document.getElementById("vid");
+      const canvas = document.getElementById("canvas");
+      const snap = document.getElementById("snap");
+
+      const constraints = {
+        audio: true,
+        video: {
+            width: {min: 1024, ideal: 1280, max: 1920,},
+            height: {min: 576, ideal: 720, max: 1080},
+        }
+      }
+      async function startwebcam() {
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia();
+          video.srcObject = stream;
+          window.stream = stream;
+        } catch (e) {
+          console.log(e.toString());
+        }
+      }
+
+      var context = canvas.getContext("2d");
+
+      snap.addEventListener("click", () => {
+        context.drawImage(video, 0, 0, 640, 480);
+      });
+
+      startwebcam();
+
+    </script>
+  </body>
+</html>

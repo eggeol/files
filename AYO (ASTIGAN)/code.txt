@@ -1,0 +1,29 @@
+name     = lance
+password = admin01
+
+name     = jake
+password = admin02
+
+name     = kent
+password = admin03
+
+name     = austin
+password = admin04
+
+name     = eujan
+password = admin05
+
+name     = nathaniel
+password = admin06
+
+name     = matthew
+password = admin07
+
+name     = lloyd
+password = admin08
+
+name     = cameron
+password = admin09
+
+name     = junivie
+password = admin10
