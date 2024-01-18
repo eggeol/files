@@ -1,0 +1,100 @@
+body {
+  background-image: url("2ws.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 45px;
+}
+h2 {
+  font-size: 76px;
+  text-align: right;
+  margin-right: 67px;
+  margin-top: 100px;
+  color: white;
+  font-family: goldman;
+}
+.line {
+  position: relative;
+  bottom: 40px;
+  float: right;
+  margin-right: 67px;
+  width: 300px;
+  height: 5px;
+  background: #fff
+}
+h3 {
+  font-size: 45px;
+  text-align: right;
+  margin-right: 67px;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+p {
+  text-align: right;
+  margin-right: 67px;
+  color: brown;
+}
+h5 {
+  text-align: right;
+  margin-right: 70px;
+  margin-top: 160px;
+  color: white;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.lols {
+  position: absolute;
+  left: 1440px;
+}

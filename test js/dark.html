@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="dark.css">
+  </head>
+  <body id="jake1">
+
+    <button type="button" onclick="myFunction()" name="button">crik here!</button>
+
+    <script>
+
+      function myFunction() {
+
+        var a = (Math.random() * 5);
+        console.log(a)
+
+         if ( a < 1 ) {
+           document.getElementById("jake1").style.backgroundColor = "blue";
+         }
+         else if ( a < 2 ) {document.getElementById("jake1").style.backgroundColor = "red";
+         }
+         else if ( a < 3 ) {document.getElementById("jake1").style.backgroundColor = "yellowgreen";
+         }
+         else if ( a < 4 ) {document.getElementById("jake1").style.backgroundColor = "black";
+         }
+         else if ( a < 5 ) {document.getElementById("jake1").style.backgroundColor = "white";
+         }
+
+      }
+    </script>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Randomizer </title>
+    <link rel="stylesheet" href="shops.css">
+  </head>
+  <body>
+
+     <p>RANDOMIZER</p>
+
+
+    <div class="rect">
+
+    <input type="text" name="name 1" value="" id="boxA" placeholder="item 1">
+    <input type="text" name="name 2" value="" id="boxB" placeholder="item 2">
+    <input type="text" name="name 3" value="" id="boxC" placeholder="item 3">
+    <input type="text" name="name 4" value="" id="boxD" placeholder="item 4">
+
+    </div>
+
+
+    <button type="button" name="button" onclick="btn()">result</button>
+
+    <h1 id="result">?</h1>
+
+
+    <script type="text/javascript">
+
+       function btn() {
+         var A = document.getElementById("boxA").value;
+         var B = document.getElementById("boxB").value;
+         var C = document.getElementById("boxC").value;
+         var D = document.getElementById("boxD").value;
+
+         var ary = [ A, B, C, D ];
+         var rslt = ary[Math.floor(Math.random() * 3 )];
+
+        document.getElementById("result").innerHTML = rslt;
+
+       }
+
+
+    </script>
+
+  </body>
+</html>

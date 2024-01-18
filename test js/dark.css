@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  border-radius: 10px;
+  font-size: 30px;
+  width: 150px;
+  height: 70px;
+}

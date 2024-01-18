@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.box {
+  width: 900px;
+  height: 1500px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  color: red;
+}

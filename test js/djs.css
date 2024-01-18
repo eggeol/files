@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-flow: nowrap;
+}
+.pic {
+  background-color: violet;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gers {
+  overflow: hidden;
+  background-color: blue;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  transition: 1s;
+}
+.hrap {
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+  transition: 1s;
+}
+.cont:nth-child(2) > .gers {
+  background-color: grey;
+  color: white;
+}
+.cont:nth-child(3) > .gers {
+  background-color: yellowgreen;
+  color: blue;
+}
+.cont:nth-child(1) > .pic {
+  background-color: green;
+}
+.cont:nth-child(3) > .pic {
+  background-color: yellow;
+}
+.cont:hover .gers {
+  height: 100%;
+}
+.cont:hover .hrap {
+  margin-top: 44%;
+}
